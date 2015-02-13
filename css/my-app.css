@@ -11,4 +11,8 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
+    border-top: #59A8FF solid 10px;
+}
+.title{
+    font-size: 40px;
 }
