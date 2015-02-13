@@ -1,0 +1,14 @@
+.align-center{
+    text-align: center;
+}
+.list-img{
+    width: 29px;
+    height: 29px;
+}
+.intro-point{
+    background-image: url('../img/coopBG.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
