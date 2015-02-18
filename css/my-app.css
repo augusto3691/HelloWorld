@@ -15,6 +15,11 @@
     font-size: 40px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+.title-login{
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 40px;
+}
 .title-points{
     font-size: 60px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -31,5 +36,11 @@ small{
     margin: 0px;
     height: 20px;
     padding: 15px 10px 10px 10px;
+}
+.login-bg{
+
+    background-image: url('../img/loginBG.png') !important;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
