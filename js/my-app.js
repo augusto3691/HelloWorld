@@ -8,7 +8,14 @@ var $$ = Dom7;
 
 
 
-// Add view
-var mainView = myApp.addView('.view-main', {
-    dynamicNavbar: true
+$$('form.ajax-submit').on('submitted', function (e) {
+
+
+    var response = JSON.parse(e.detail.xhr.responseText);
+    if ((response.success)) {
+//        myapp.viewport('troca viewport');
+    } else {
+        myApp.alert(response.error.message);
+    }
+
 });
